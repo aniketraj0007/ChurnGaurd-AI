@@ -1,0 +1,136 @@
+{
+    "best_model_name": "CatBoost",
+    "metrics": {
+        "Model": "CatBoost",
+        "Accuracy": 0.9957,
+        "Precision": 0.9985,
+        "Recall": 0.9924,
+        "F1 Score": 0.9954,
+        "ROC-AUC": 0.9999,
+        "Confusion Matrix": [
+            [
+                749,
+                1
+            ],
+            [
+                5,
+                654
+            ]
+        ]
+    },
+    "comparison": [
+        {
+            "Model": "CatBoost",
+            "Accuracy": 0.9957,
+            "Precision": 0.9985,
+            "Recall": 0.9924,
+            "F1 Score": 0.9954,
+            "ROC-AUC": 0.9999,
+            "Confusion Matrix": [
+                [
+                    749,
+                    1
+                ],
+                [
+                    5,
+                    654
+                ]
+            ]
+        },
+        {
+            "Model": "XGBoost",
+            "Accuracy": 0.9957,
+            "Precision": 0.9954,
+            "Recall": 0.9954,
+            "F1 Score": 0.9954,
+            "ROC-AUC": 0.9996,
+            "Confusion Matrix": [
+                [
+                    747,
+                    3
+                ],
+                [
+                    3,
+                    656
+                ]
+            ]
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9695,
+            "Precision": 0.9681,
+            "Recall": 0.9666,
+            "F1 Score": 0.9674,
+            "ROC-AUC": 0.997,
+            "Confusion Matrix": [
+                [
+                    729,
+                    21
+                ],
+                [
+                    22,
+                    637
+                ]
+            ]
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.9603,
+            "Precision": 0.9809,
+            "Recall": 0.9332,
+            "F1 Score": 0.9565,
+            "ROC-AUC": 0.9947,
+            "Confusion Matrix": [
+                [
+                    738,
+                    12
+                ],
+                [
+                    44,
+                    615
+                ]
+            ]
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9496,
+            "Precision": 0.9495,
+            "Recall": 0.9423,
+            "F1 Score": 0.9459,
+            "ROC-AUC": 0.9916,
+            "Confusion Matrix": [
+                [
+                    717,
+                    33
+                ],
+                [
+                    38,
+                    621
+                ]
+            ]
+        }
+    ],
+    "numerical_cols": [
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "categorical_cols": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ]
+}
