@@ -1,3 +1,0 @@
-"""
-App Components Package Init
-"""
